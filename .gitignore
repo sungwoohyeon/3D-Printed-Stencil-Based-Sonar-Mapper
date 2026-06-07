@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated outputs (regenerable by running the scripts)
+*.npz
+*.npy
+
+# Tooling / editor state
+.omc/
+.omx/
+.DS_Store
+Thumbs.db
+
+# Reference material intentionally NOT redistributed here (fetch from upstream — see README)
+stencils/
+data/
+imgs/
+sim/ref_optimizeStencil.m
